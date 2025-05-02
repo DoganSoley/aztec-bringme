@@ -30,6 +30,8 @@ echo "🧩 Aztec Sequencer Node Installation"
 # 1. System updates
 sudo apt-get update && sudo apt-get upgrade -y
 
+sudo apt install screen -y
+
 # 2. Installation of packages
 sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev -y
 
